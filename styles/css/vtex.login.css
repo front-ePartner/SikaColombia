@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.label{
+  display: grid;
+  color: #000000!important;
+  text-transform: capitalize!important;
+  font-size: 13px;
+  margin-top: 2px;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.label:hover {
+  border-color: #616161;
+}
+
+/*
+.label::before{
+    content: "HOLA";
+    text-align: left;
+    text-decoration: none !important;
+    color: black;
+    font-size: 10px;
+}
+*/
+span {
+    background: transparent!important;
+}
+div{
+  text-transform: initial;
+  color: inherit;
+}
+.currencyContainer{
+  color:black;
+}
+button{
+  padding: 0 !important;
+}
+.vtex-button__label{
+  display: none !important;
+}
+button{
+  border: none !important;
+  min-height: 28px !important;
+  width: auto !important;
+  background: transparent !important;
+}
+.container--textoscentro{
+  width: 20%;
+}
+select{
+  border-radius: 5px;
+  border: 1px solid #191531;
+  opacity: 1 !important;
+  padding: 0 10px;
+  font-size: 12px !important;
+}
+.profile {
+  color: #191531;
+  font-size: 12px;
+  text-transform: initial;
+}
+.content--emailAndPassword{
+  max-width: 100%!important;
+  padding: 0 10px 30px 10px;
+  background: #ddd;
+  color: #191531;
+}
+.accessCodeOptionBtn :global(.vtex-button__label){
+  border-radius: 5px;
+  border: 1px solid;
+  height: 44px;
+  margin: 0 10px;
+  background-color: #ffc100;
+} 
+.sendButton :global(.vtex-button__label ){
+  border: 1px solid #191531;;
+  border-radius: 5px;
+  height: 34px;
+  color: #191531;
+  margin-bottom: 10px;
+  background-color: #ffc100;
+  text-transform: uppercase;
+}
+.options {
+  min-width: 50%;
+  text-align: center;
+}
+.container  :global(.vtex-button__label ){
+  border: none;
+}
+.contentFormVisible  {
+  min-width: 50%;
+  padding: 0 42px;
+  text-align: start;
+}
+.formTitle{
+  text-align: inherit;
+}
+.forgotPasswordLink {
+  color: #191531;
+}
+.content--emailVerification{
+  max-width: 100%  !important;
+  padding: 0 100px 100px 100px;
+  background: #ddd;
+  color: black;
+  padding-top: 160px;
+}
+.contentAlwaysWithOptions {
+  max-width: 100%  !important;
+  padding: 0 100px 100px 100px;
+  background: #f6f6f6;
+  color: #191531;
+  padding-top: 30px;
+}
+h3{
+  font-weight: initial;
+}
+.portalWrapper .content--emailVerification{
+  padding: 0;
+}
+@media (max-width: 600px) {
+  .buttonLink :global(.vtex-button__label){
+    padding: 0 5px 0 0px;
+  }
+  .container :global(.vtex-button__label){
+    padding: 0 5px 0 0px;
+  }
+  .label {
+    line-height: 15px;
+    font-size: 11px;
+  }
+  .label::before {
+    text-align: center !important;
+  }
+  .contentAlwaysWithOptions {
+    max-width: 100%!important;
+    padding: 0 0px 0px 0px;
+  }
+}

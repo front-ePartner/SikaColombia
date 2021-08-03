@@ -1,0 +1,56 @@
+.container{
+    padding: 0 100px;
+    display: flex;
+}
+.link, .term  {
+    color: black !important;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 0 0 0;
+    text-decoration: none;
+}
+.homeLink {
+    display: none;
+}
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        margin-left: 18px;
+    }
+    .container--breadCrumbMobileP .arrow--breadCrumbMobileP{
+        display: flex;
+    }
+    .container--breadCrumbMobileP .caretIcon{
+        margin: 4px 0 0 0;
+    } 
+    .container--breadCrumbMobileP .link--2{
+        margin-left: 10px;
+    }
+    .container--breadCrumbMobileP {
+        margin: 10px 27px 5px 27px;
+    }
+    .homeLink {
+        display: block !important;
+        padding: 0;
+        margin-top: -5px;
+    }
+    .term--breadCrumbMobileP {
+        display: none;
+    }
+    .link--breadCrumbMobileP--1{
+        font-size: 0;
+    }
+    .link--breadCrumbMobileP--1::before{
+        content: "DEPARTAMENTO";
+        font-size: 10px;
+    }
+    .link--breadCrumbMobileP--2{
+        font-size: 0;
+    }
+    .link--breadCrumbMobileP--2::before{
+        content: "CATEGORIA";
+        font-size: 10px;
+    }
+}

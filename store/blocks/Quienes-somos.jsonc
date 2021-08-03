@@ -1,0 +1,59 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        "info-card#bannerQuinesSomos",
+        "info-card#QuienesSomosM",
+        "flex-layout.row#about-us1"
+      ]
+    },
+    "info-card#QuienesSomosM":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c_mobileQuienesSomos.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
+      }
+    },
+    "info-card#bannerQuinesSomos":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2cQuienesSomos.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerC"
+      }
+    },
+    "flex-layout.row#about-us1": {
+      "children": [
+        "image#QUINESSOMOS",
+        "info-card#bannerQuinesSomos2"
+      ],
+      "props":{
+        "blockClass": "quienessomosColumn"
+      }
+    },
+    "image#QUINESSOMOS": {
+      "props": {
+        "src": "https://impormedical.vteximg.com.br/arquivos/imagenb2cquienessomos.png",
+        "blockClass": "QuienesSomosImg"
+      }
+    },
+
+    "info-card#bannerQuinesSomos2":{
+      "props":{
+        "id":"texting",
+        "callToActionText": "IR A COMPRAR",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "RIGHT",
+        "textAlignment": "RIGHT",
+        "headline": "QUIENES SOMOS",
+        "subhead": "Siempre Salud es una tienda médica virtual la cual nace de la necesidad de asesoramiento de los dispositivos médicos, accesorios y ayudas técnicas. \n En Siempre Salud nos mueven las personas y el bienestar de ellas. por ello  siempre trabajamos en pro de asesorar el producto que cada persona realmente requiera y al precio justo. \n 1. La asesoría personalizada: \n Sabemos que hay momentos en los que no sabes exactamente lo que buscas. Por eso, en siempre salud estamos en todo momento para que encuentre el producto ideal. De nuestra tienda a la puerta de su hogar. \n Envío gratis a todo el país: \n En siempre salud llegamos desde grandes ciudades como Bogotá hasta pueblos mágicos como Ciénaga y lo mejor, con envío gratis. \n Soluciones garantizadas: \n Sabemos que a veces las cosas no son como esperamos, por eso, al momento de recibir sus productos obtén una llamada de acompañamiento para ayudar con dudas del producto y evaluar si es lo que buscaba, tranquilo. Si no recibe el producto que esperaba, puede devolverlo y con gusto le enviaremos el que realmente se ajuste a su solicitud.",
+        "callToActionMode": "link",
+        "blockClass":"QuienesSomos"
+      }
+    }
+  }

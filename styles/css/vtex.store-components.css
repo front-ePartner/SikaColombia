@@ -1,0 +1,2133 @@
+.autoCompleteOuterContainer{
+ /* background: #ffc100;
+  border: 2px solid #191531;*/
+  border-radius: 3px;
+  margin: 1px;
+  font-size: 12px;
+  text-indent: 15px;
+  text-align: inherit;
+}
+:global(.vtex-store__template){
+  background-color: #f6f6f6;
+}
+.c-muted-2 {
+  display: none !important;
+}
+.installmentsPrice{
+  display: none;
+}
+.vtex-button__label{
+  padding: 0 !important;
+}
+.infoCardImage--Mio{
+  position:absolute;
+  top: 0%;
+  right: 0;
+  background-size: 100%;
+  z-index: 1;
+  width: 100%;
+} 
+.infoCardContainer--Mio{
+  width: 100%;
+  min-height: 575px;
+  background: #f6f6f6;
+}
+@media only screen and (min-width: 1500px) {
+  .infoCardContainer--Mio{
+    width: 100%;
+    min-height: 615px !important;
+  }
+}
+.infoCardTextContainer--Mio{
+  z-index: 2;
+  padding: 0;
+}
+.infoCardSubhead--Mio{
+  font-size: 42px;
+  font-weight: 700;
+  color: black;
+}
+.infoCardHeadline--Mio{
+  font-size: 14px;
+}
+.infoCardCallActionText--Mio{
+  background: #ffc100;
+  color: black;
+  padding: 6px 22px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.infoCardCallActionContainer--Mio{
+  text-decoration: none;
+}
+.infoCardContainer--marcas,
+.infoCardContainer--marcas-icon1,.infoCardContainer--marcas-icon2,.infoCardContainer--marcas-icon3,.infoCardContainer--marcas-icon4,
+.infoCardContainer--marcas-icon5, .infoCardContainer--marcas-icon6, .infoCardContainer--marcas-icon7,
+.infoCardContainer--marcas-icon8, .infoCardContainer--marcas-icon9, .infoCardContainer--marcas-icon10,
+.infoCardContainer--marcas-icon11, .infoCardContainer--marcas-icon12, .infoCardContainer--marcas-icon13,
+.infoCardContainer--marcas-icon14{
+  display: block;
+  position: relative;
+}
+.infoCardTextContainer--marcas, .infoCardImageContainer--marcas, 
+.infoCardTextContainer--marcas-icon1,.infoCardTextContainer--marcas-icon2,.infoCardTextContainer--marcas-icon3,.infoCardTextContainer--marcas-icon4,
+.infoCardTextContainer--marcas-icon5, .infoCardTextContainer--marcas-icon6, .infoCardTextContainer--marcas-icon7,
+.infoCardTextContainer--marcas-icon8, .infoCardTextContainer--marcas-icon9, .infoCardTextContainer--marcas-icon10,
+.infoCardTextContainer--marcas-icon11, .infoCardTextContainer--marcas-icon12, .infoCardTextContainer--marcas-icon13,
+.infoCardTextContainer--marcas-icon14,
+.infoCardImageContainer--marcas-icon1,.infoCardImageContainer--marcas-icon2,.infoCardImageContainer--marcas-icon3,.infoCardImageContainer--marcas-icon4,
+.infoCardImageContainer--marcas-icon5, .infoCardImageContainer--marcas-icon6, .infoCardImageContainer--marcas-icon7,
+.infoCardImageContainer--marcas-icon8, .infoCardImageContainer--marcas-icon9, .infoCardImageContainer--marcas-icon10,
+.infoCardImageContainer--marcas-icon11, .infoCardImageContainer--marcas-icon12, .infoCardImageContainer--marcas-icon13,
+.infoCardImageContainer--marcas-icon14{
+  width: 100%;
+} 
+.infoCardImageContainer--marcas-icon1,.infoCardImageContainer--marcas-icon2,.infoCardImageContainer--marcas-icon3,.infoCardImageContainer--marcas-icon4,
+.infoCardImageContainer--marcas-icon5, .infoCardImageContainer--marcas-icon6, .infoCardImageContainer--marcas-icon7,
+.infoCardImageContainer--marcas-icon8, .infoCardImageContainer--marcas-icon9, .infoCardImageContainer--marcas-icon10,
+.infoCardImageContainer--marcas-icon11, .infoCardImageContainer--marcas-icon12, .infoCardImageContainer--marcas-icon13,
+.infoCardImageContainer--marcas-icon14{
+  padding-bottom: 50px;
+}
+.infoCardContainer--marcas,  
+.infoCardContainer--marcas-icon1,.infoCardContainer--marcas-icon2,.infoCardContainer--marcas-icon3,.infoCardContainer--marcas-icon4,
+.infoCardContainer--marcas-icon5, .infoCardContainer--marcas-icon6, .infoCardContainer--marcas-icon7,
+.infoCardContainer--marcas-icon8, .infoCardContainer--marcas-icon9, .infoCardContainer--marcas-icon10,
+.infoCardContainer--marcas-icon11, .infoCardContainer--marcas-icon12, .infoCardContainer--marcas-icon13,
+.infoCardContainer--marcas-icon14{
+  position: relative;
+}
+
+.infoCardCallActionContainer--marcas,  
+.infoCardCallActionContainer--marcas-icon1,.infoCardCallActionContainer--marcas-icon2,.infoCardCallActionContainer--marcas-icon3,.infoCardCallActionContainer--marcas-icon4,
+.infoCardCallActionContainer--marcas-icon5, .infoCardCallActionContainer--marcas-icon6, .infoCardCallActionContainer--marcas-icon7,
+.infoCardCallActionContainer--marcas-icon8, .infoCardCallActionContainer--marcas-icon9, .infoCardCallActionContainer--marcas-icon10,
+.infoCardCallActionContainer--marcas-icon11, .infoCardCallActionContainer--marcas-icon12, .infoCardCallActionContainer--marcas-icon13,
+.infoCardCallActionContainer--marcas-icon14{
+  position: relative;
+  margin: 0;
+  height: 100%;
+  padding-top: 216px;
+  z-index: 99999;
+}
+.infoCardTextContainer--marcas,  
+.infoCardTextContainer--marcas-icon1,.infoCardTextContainer--marcas-icon2,.infoCardTextContainer--marcas-icon3,.infoCardTextContainer--marcas-icon4,
+.infoCardTextContainer--marcas-icon5, .infoCardTextContainer--marcas-icon6, .infoCardTextContainer--marcas-icon7,
+.infoCardTextContainer--marcas-icon8, .infoCardTextContainer--marcas-icon9, .infoCardTextContainer--marcas-icon10,
+.infoCardTextContainer--marcas-icon11, .infoCardTextContainer--marcas-icon12, .infoCardTextContainer--marcas-icon13,
+.infoCardTextContainer--marcas-icon14{
+  position: absolute;
+  bottom: 25px;
+  padding: 0;
+}
+.infoCardCallActionText--marcas-icon1,.infoCardCallActionText--marcas-icon2,.infoCardCallActionText--marcas-icon3,.infoCardCallActionText--marcas-icon4,
+.infoCardCallActionText--marcas-icon5, .infoCardCallActionText--marcas-icon6, .infoCardCallActionText--marcas-icon7,
+.infoCardCallActionText--marcas-icon8, .infoCardCallActionText--marcas-icon9, .infoCardCallActionText--marcas-icon10,
+.infoCardCallActionText--marcas-icon11, .infoCardCallActionText--marcas-icon12, .infoCardCallActionText--marcas-icon13,
+.infoCardCallActionText--marcas-icon14{
+  color: black;
+  text-align: center;
+  position: absolute;
+  top: 95%;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  font-weight: 400;
+  text-decoration: none;
+  background: white;
+  margin: -5% 0 0 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+.infoCardImage--marcas{
+  max-width: 175px;
+  padding: 0 0 32px 0;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.listPriceLabel, .sellingPriceLabel{
+  display: none;
+}
+.infoCardHeadline--segundo{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin-top: 70px;
+  letter-spacing: 1px;
+}
+.infoCardCallActionText--segundo{
+  background: #00ff99;
+  color: black;
+  padding: 15px 15px;
+  font-weight: 500;
+}
+.infoCardCallActionText--segundo:hover{
+  background: black;
+  color: white;
+  padding: 15px 15px;
+  font-weight: 300;
+}
+.infoCardContainer--segundo{
+  background: #e3e3e3;
+/*  position: absolute; */
+    width: 100%;
+    margin-top: -100px;
+}
+.infoCardImageContainer--marcas{
+  text-align: center;
+}
+.infoCardCallActionText--marcas:hover{
+  text-decoration: underline;
+}
+.flexColChild--textosIcno .imageElement{
+  display: none;
+} 
+.imageElement{
+  margin: 0 20px 0 13px;
+}
+.imageElementLink{
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
+}
+.imageElement{
+  transition: all 400ms;
+  width: 100%;
+}
+.infoCardHeadline--textfool, .infoCardHeadline--textfool2, .infoCardHeadline--textfool3{
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #00ff9d;
+  background: transparent;
+}
+.infoCardContainer--textfool, .infoCardContainer--textfool2{
+  background: transparent;
+  color: #00ff9d;
+  justify-content: center;
+}
+.infoCardCallActionContainer--textfool2{
+  display: none;
+}
+.infoCardCallActionContainer--textfool3{
+  display: none;
+}
+.infoCardTextContainer--textfool2{
+  width: 60%;
+}
+.infoCardHeadline--textfool2, .infoCardHeadline--textfool3{
+  margin: 0;
+  display: none;
+}
+.infoCardTextContainer--textfool2, .infoCardTextContainer--textfool3{
+  display: none;
+}
+.infoCardContainer--textfool3, .infoCardHeadline--textfool3{
+  color: white;
+  background: transparent;
+
+}
+.infoCardImage--textfool3{
+    width: 25%;
+    position: absolute;
+    left: -104px;
+    top: -14px;
+}
+.infoCardTextContainer--textfool3{
+  width: 70%;
+}
+.infoCardImageContainer--textfool3{
+  width: 30%;
+}
+.infoCardTextContainer--bannerC{
+  display: none;
+}
+.infoCardImageContainer--bannerC{
+  width: 100%; 
+}
+.infoCardContainer--bannerC{
+  margin: 0px;
+  padding: 0;
+}
+.container{
+  padding: 0;
+  margin: 0 auto;
+}
+.searchBarContainer{
+  width: 100%;
+}
+.productBrand {
+    color: #483d3d;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.productDescriptionTitle {
+  display: none;
+}
+.currencyFraction, .currencyDecimal{
+  display: none;
+}
+.currencyContainer{
+  color: #3e3e3e;
+  font-family: 'Century Gothic','Poppins';
+  font-size: 21px;
+  font-weight: 700;
+}
+.content{
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  font-weight: 400;
+  color: black;
+}
+.imageElementLink--bannerLateralDerecho::before{
+  content: "AYUDARTE A MOVILIZAR";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+  width: 70%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico1::before{
+  content: "PARA EL CUIDADO DEL CORAZÓN";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 43%;
+  text-align: right;
+
+}
+.imageElementLink--imagenMosaico2::before{
+  content: "COMPLETA TU ESTILO";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  z-index: 9;
+  bottom: 10px;
+  right: 20px;
+  width: 71%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico3::before{
+  content: "CUIDA TU SISTEMA RESPIRATORIO";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 65%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico4::before{
+  content: "AQUÍ ENCONTRARÁS LOS MEJORES INSTRUMENTOS";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 9;
+  width: 100%;
+  text-align: right;
+}
+@media (min-width: 1800px) {
+  .imageElementLink--bannerLateralDerecho::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico1::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico2::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico3::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico4::before{
+      right: 35px;
+  }
+}
+.thumbImg{
+  width: 94%;
+  margin-top: 4px;
+}
+.carouselGaleryCursor {
+  margin-right: 1%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.shareLabel{
+  color: black;
+  font-weight: 700;
+  margin: 10px 0 16px 0;
+}
+.discountInsideContainer {
+  color: black;
+  font-weight: 500;
+}
+.shippingContainer :global(.vtex-button__label){
+  background: #00ff99;
+  color: black;
+  border-radius: 6px;
+  padding: 20px 20px;
+  display: flex;
+}
+.infoCardCallActionText--Mio{
+  padding: 16px 16px;
+  text-transform: uppercase;
+}
+.infoCardHeadline--textfool2{
+  color: white;
+}
+
+.infoCardHeadline--inicio{
+  font-weight: 700;
+  color: #00ff99;
+  padding: 0;
+  font-size: 45px;
+  margin: 0;
+}
+.infoCardSubhead--inicio{
+  font-size: 19px;
+    font-weight: 100;
+    color: black;
+    line-height: 26px;
+}
+.infoCardImageContainer--inicio:last-child{
+  width: 30%;
+  text-align: center;
+}
+.infoCardTextContainer--inicio:first-child{
+  width: 70%;
+  padding: 0 10%;
+}
+.infoCardContainer--inicio{
+  margin: 0 100px 0 100px;
+}
+.infoCardImage--inicio{
+  margin: 69px 0 -123px 0;
+  width: 100%;
+  padding: 0 13%;
+  position: relative;
+  z-index: 9;
+}
+.container{
+  max-width: 100%;
+}
+.infoCardImage--bannerC{
+  width: 100%;
+}
+.skuSelectorItemTextValue {
+  border: 1px solid;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.skuSelectorItemTextValue {
+  padding: 9px 10px;
+  font-size: 0;
+  margin: 0 0 0 0;
+}
+
+
+.skuSelectorItem--selected .skuSelectorItemTextValue::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
+  background: black;
+}
+.skuSelectorItem .skuSelectorItemTextValue::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
+}
+
+.skuSelectorItem--unidad {
+  width: 70%;
+  margin: 0;
+}
+
+.skuSelectorItem {
+  width: 70%;
+  padding: 0;
+  margin: 0 0 11px 0;
+}
+
+.skuSelectorOptionsList {
+  margin: 0;
+}
+
+.skuSelectorName {
+  display: none;
+}
+.sellingPriceValue {
+  margin: 0px 0 0 10px;
+  padding: 0;
+}
+.skuSelectorSubcontainer--caja {
+  margin: 0;
+}
+.infoCardContainer--BannerDos{
+  padding: 20px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 10px;
+  height: 490px;
+  width: 100% !important;
+  position: relative;
+}
+.infoCardCallActionContainer--BannerDos{
+  background-color: #f5b325;
+  width: 55%;
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+  height: 50px;
+  margin: -23px 3% 0;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+}
+.infoCardCallActionText--BannerDos{
+  color: #191531;
+  text-decoration: none;
+  padding-top: 6px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+.infoCardHeadline--BannerDos{
+  color: black;
+  position: absolute;
+  background: white;
+  width: 73%;
+  bottom: 59%;
+  left: 21px;
+  font-weight: 900;
+  font-size: 32px;
+  padding: 25px 8px 25px 26px;
+}
+.logoImage{
+  width: 95px;
+}
+.infoCardImage--textfool2{
+  width: 66%;
+}
+/*Ctegoria 3*/
+/*
+.infoCardImageContainer--marcas-icon3::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/3_icontapabocasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 100px;
+  height: 77px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 30%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardImage--marcas-icon3, .infoCardImage--marcas-icon4, .infoCardImage--marcas-icon1, .infoCardImage--marcas-icon2, .infoCardImage--marcas-icon4, .infoCardImage--marcas-icon5, .infoCardImage--marcas-icon5, .infoCardImage--marcas-icon7, .infoCardImage--marcas-icon8, .infoCardImage--marcas-icon9, .infoCardImage--marcas-icon10, .infoCardImage--marcas-icon11, .infoCardImage--marcas-icon12, .infoCardImage--marcas-icon13, .infoCardImage--marcas-icon14{
+  transition: all 400ms;
+  cursor: pointer;
+  min-width: 103%;
+  padding: 0;
+}
+.infoCardContainer--marcas-icon3:hover .infoCardImageContainer--marcas-icon3::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon3:hover .infoCardImage--marcas-icon3{
+  filter: brightness(0.7);
+}
+/*Ctegoria 4*/
+/*
+.infoCardImageContainer--marcas-icon4::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/4_iconsillaruedasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon4:hover .infoCardImageContainer--marcas-icon4::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon4:hover .infoCardImage--marcas-icon4{
+  filter: brightness(0.7);
+}
+/*Ctegoria 1*/
+/*
+.infoCardImageContainer--marcas-icon1::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/1_iconrespiratoriaDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 42%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon1:hover .infoCardImageContainer--marcas-icon1::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon1:hover .infoCardImage--marcas-icon1{
+  filter:brightness(0.7);
+}
+/*Ctegoria 2*/
+/*
+.infoCardImageContainer--marcas-icon2::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/2_iconobañoDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  left: 32%;
+  top: 28%;
+  transition: all 40ms;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon2:hover .infoCardImageContainer--marcas-icon2::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon2:hover .infoCardImage--marcas-icon2{
+  filter: brightness(0.7);
+}
+/*Ctegoria 5*/
+/*
+.infoCardImageContainer--marcas-icon5::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/5_iconayudasDesk.png)no-repeat;
+  background-size: 32%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left:41%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon5:hover .infoCardImageContainer--marcas-icon5::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon5:hover .infoCardImage--marcas-icon5{
+  filter: brightness(0.7);
+}
+/*Ctegoria 6*/
+/*
+.infoCardImageContainer--marcas-icon6::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/6_iconhabitacionDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 31%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon6:hover .infoCardImageContainer--marcas-icon6::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon6:hover .infoCardImage--marcas-icon6{
+  filter: brightness(0.7);
+}
+/*Ctegoria 7*/
+/*
+.infoCardImageContainer--marcas-icon7::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/7_iconmonitoreoDESK.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 101px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 26%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon7:hover .infoCardImageContainer--marcas-icon7::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon7:hover .infoCardImage--marcas-icon7{
+  filter: brightness(0.7);
+}
+/*Ctegoria 8*/
+/*
+.infoCardImageContainer--marcas-icon8::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/8_iconlesionDesk.png)no-repeat;
+    background-size: 57%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 14%;
+    transition: all 40ms;
+    left: 39%;
+    opacity: 0;
+    cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon8:hover .infoCardImageContainer--marcas-icon8::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon8:hover .infoCardImage--marcas-icon8{
+  filter: brightness(0.7);
+}
+/*Ctegoria 9*/
+/*
+.infoCardImageContainer--marcas-icon9::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/9_iconcaretaDesk.png)no-repeat;
+  background-size: 78%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 40%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon9:hover .infoCardImageContainer--marcas-icon9::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon9:hover .infoCardImage--marcas-icon9{
+  filter: brightness(0.7);
+}
+/*Ctegoria 10*/
+/*
+.infoCardImageContainer--marcas-icon10::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/10_icongelDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon10:hover .infoCardImageContainer--marcas-icon10::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon10:hover .infoCardImage--marcas-icon10{
+  filter: brightness(0.7);
+}
+/*Ctegoria 11*/
+/*
+.infoCardImageContainer--marcas-icon11::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/11_iconalcoholesk.png)no-repeat;
+    background-size: 71%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    transition: all 40ms;
+    left: 43%;
+    opacity: 0;
+    cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon11:hover .infoCardImageContainer--marcas-icon11::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon11:hover .infoCardImage--marcas-icon11{
+  filter: brightness(0.7);
+}
+/*Ctegoria 12*/
+/*
+.infoCardImageContainer--marcas-icon12::before{
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/12_iconotrosDesk.png)no-repeat;
+    background-size: 84%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    transition: all 40ms;
+    left: 39%;
+    opacity: 0;
+    cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon12:hover .infoCardImageContainer--marcas-icon12::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon12:hover .infoCardImage--marcas-icon12{
+  filter: brightness(0.7);
+}
+/*Ctegoria 13*/
+/*
+.infoCardImageContainer--marcas-icon13::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/13_iconsentidosDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 26%;
+  opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon13:hover .infoCardImageContainer--marcas-icon13::before{
+  opacity: 1;
+  z-index: 9;
+}
+.infoCardContainer--marcas-icon13:hover .infoCardImage--marcas-icon13{
+  filter: brightness(0.7);
+}
+/*Ctegoria 13*/
+/*
+.infoCardImageContainer--marcas-icon14::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/14_icontijerasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon14:hover .infoCardImageContainer--marcas-icon14::before{
+  opacity: 1;
+  z-index: 9;
+}
+/*
+.infoCardContainer--marcas-icon14:hover .infoCardImage--marcas-icon14{
+  filter: brightness(0.7);
+}*/
+/*Hover*/
+/*
+.infoCardImageContainer--marcas-icon1:hover .infoCardImage--marcas-icon1{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon2:hover .infoCardImage--marcas-icon2{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon3:hover .infoCardImage--marcas-icon3{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon4:hover .infoCardImage--marcas-icon4{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon5:hover .infoCardImage--marcas-icon5{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon6:hover .infoCardImage--marcas-icon6{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon7:hover .infoCardImage--marcas-icon7{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon8:hover .infoCardImage--marcas-icon8{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon9:hover .infoCardImage--marcas-icon9{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon10:hover .infoCardImage--marcas-icon10{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon11:hover .infoCardImage--marcas-icon11{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon12:hover .infoCardImage--marcas-icon12{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon13:hover .infoCardImage--marcas-icon13{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon14:hover .infoCardImage--marcas-icon14{
+  filter: brightness(0.7);
+}
+*/
+.searchIcon{
+  transition: all 400ms;
+  color: white;
+}
+.searchIcon{
+  transition: all 400ms;
+}
+.searchIcon:hover{
+  color: white;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 55px;
+  border: none;
+}
+.autoCompleteOuterContainer:global(.vtex-input-prefix__group){
+  border-color: white;
+}
+.logoContainer--logoImg{
+  padding-left: 0;
+}
+.infoCardTextContainer--segundo{
+  height: 311px;
+}
+.price_sellingPrice{
+  position: relative !important;
+  margin: 0;
+}
+.price_sellingPrice::after{
+  content: "IVA Incluido";
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+  margin-left: 5px;
+}
+.swiperCaretNext{
+  display: none;
+}
+.swiperCaretPrev{
+  display: none; 
+}
+.infoCardImageContainer--bannerC{
+  background-color: transparent;
+}
+.currencyContainer {
+  color: black;
+}
+.sellingPrice {
+  padding: 2px 0;
+  height: auto;
+  font-weight: bold;
+}
+.imageElement--BannerProduct{
+  margin-top: 10px;
+  width: 94%;
+}
+.productImagesThumbActive .thumbImg{
+  border: 1px solid;
+}
+.infoCardContainer--descripcionEspec{
+  background: transparent;
+}
+.infoCardSubhead--descripcionEspec {
+  margin-top: 2px;
+  line-height: 20px;
+  margin-left: -11px;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}
+.infoCardCallActionContainer--descripcionEspec{
+  height: auto !important;
+  margin: -18px 0 0 69%;
+}
+.infoCardTextContainer--QuienesSomos{
+  width: 100%;
+}
+.infoCardCallActionContainer--QuienesSomos{
+  border-radius: 5px;
+    background: #ffc100;
+    width: 50%;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px auto;
+}
+.infoCardContainer--QuienesSomos{
+  background:#140d2e ;
+}
+.imageElement--QuienesSomosImg2{
+  padding: 55px 0;
+  margin: -27px 60px;
+  width: 80%;
+  max-height: 100%;
+}
+.infoCardHeadline--QuienesSomos{
+  text-align: center;
+  color: white;
+}
+.infoCardSubhead--QuienesSomos{
+  text-align: justify;
+    color: white;
+    font-weight: 100;
+    line-height: 26px;
+    font-size: 15px;
+}
+.imageElement--QuienesSomosImg{
+  margin: 0;
+  width: 100%;
+}
+.infoCardCallActionText--BannerDos:hover{
+  text-decoration-color: #140d2e;
+  text-decoration:underline;
+}
+.infoCardCallActionText--QuienesSomos{
+  color: black;
+  padding-left: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.infoCardCallActionText--descripcionEspec{
+  margin: 0;
+  color: black;
+}
+.infoCardTextContainer--descripcionEspec{
+  display: flex;
+}
+.infoCardContainer--bannerM{
+  display: none;
+}
+.newsletter .label{
+  display: none;
+}
+.newsletter--newsletter{
+  width: 278%;
+}
+.container--newsletter{
+  margin-top: -15px;
+}
+.buttonContainer--newsletter :global(.vtex-button){
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #ffc100 !important;
+  color: #191531;
+}
+.infoCardTextContainer--QuienesSomos2{
+  width: 100%;
+}
+.imageElement--BannerPagos{
+  margin: 0 -10px 0 0;
+}
+.infoCardContainer--inicio{
+  display: none;
+}
+.infoCardHeadline--QuienesSomos2{
+  color: #140d2e;
+}
+.infoCardHeadline{
+  font-family: 'Century Gothic', 'Poppins';
+}
+.infoCardContainer--marcas-icon1 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon2 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon3 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon4 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon5 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon6 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon7 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon8 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon9 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon10 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon11 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon12 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon13 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon14 {
+  background: transparent;
+}
+.infoCardTextContainer--marcas-icon4 {
+  padding: 0;
+}
+.infoCardCallActionContainer--marcas-icon1:hover .infoCardCallActionText--marcas-icon1 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon2:hover .infoCardCallActionText--marcas-icon2 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon3:hover .infoCardCallActionText--marcas-icon3 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon4:hover .infoCardCallActionText--marcas-icon4 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon5:hover .infoCardCallActionText--marcas-icon5 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon6:hover .infoCardCallActionText--marcas-icon6 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon7:hover .infoCardCallActionText--marcas-icon7 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon8:hover .infoCardCallActionText--marcas-icon8 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon9:hover .infoCardCallActionText--marcas-icon9 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon10:hover .infoCardCallActionText--marcas-icon10 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon11:hover .infoCardCallActionText--marcas-icon11 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon12:hover .infoCardCallActionText--marcas-icon12 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon13:hover .infoCardCallActionText--marcas-icon13 {
+  background: #F5B325;
+}
+.infoCardCallActionContainer--marcas-icon14:hover .infoCardCallActionText--marcas-icon14 {
+  background: #F5B325;
+}
+.searchBarContainer {
+  padding: 2px 0 0 0;
+}
+.suffixWrapper {
+  background: #483d3d;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin: auto auto auto -25px;
+  border-radius: 30px;
+  justify-content: center;
+}
+.searchBarContainer {
+  height: 32px;
+  border-radius: 36px;
+  margin: auto;
+}
+.infoCardSubhead--Mio {
+  font-size: 15px;
+  padding: 0 0 0 0;
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+}
+.infoCardTextContainer--Mio {
+  margin: -85px 0 0 100px;
+  background: #00000085;
+  padding: 0 0 0 60px;
+  position: relative;
+}
+.infoCardHeadline--Mio {
+  font-size: 70px;
+  color: white;
+}
+.infoCardTextContainer--Mio::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 74%;
+  background: #f5b325;
+  top: 15%;
+  right: -2%;
+  z-index: 9999;
+}
+
+
+
+
+.infoCardContainer--bannerInformativo {
+  height: 390px;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo::before {content: "";width: 40px;height: 40px;background: url(https://sikaco.vteximg.com.br/arquivos/icon-help.png);background-repeat: no-repeat;background-position: center;background-color: #EDEDED;margin: 6px;border-radius: 4px;}
+.infoCardHeadline--bannerInformativo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo::after {content: "";background: #f5b325;width: 74%;position: absolute;height: 3px;top: 100%;border-radius: 5px;}
+.infoCardCallActionText--bannerInformativo {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo {
+  width: 100%;
+}
+
+
+.infoCardContainer--bannerInformativo2 {
+  height: 390px;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo2 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo2::before {content: "";width: 40px;height: 40px;background: url(https://sikaco.vteximg.com.br/arquivos/icon-tabla.png);background-repeat: no-repeat;background-position: center;background-color: #EDEDED;margin: 6px;border-radius: 4px;}
+.infoCardHeadline--bannerInformativo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo2::after {content: "";background: #f5b325;width: 74%;position: absolute;height: 3px;top: 100%;border-radius: 5px;}
+.infoCardCallActionText--bannerInformativo2 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo2 {
+  width: 100%;
+}
+
+
+.infoCardContainer--bannerInformativo3 {
+  height: 390px;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo3 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo3::before {content: "";width: 40px;height: 40px;background: url(https://sikaco.vteximg.com.br/arquivos/icon-loca.png);background-repeat: no-repeat;background-position: center;background-color: #EDEDED;margin: 6px;border-radius: 4px;}
+.infoCardHeadline--bannerInformativo3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo3::after {content: "";background: #f5b325;width: 74%;position: absolute;height: 3px;top: 100%;border-radius: 5px;}
+.infoCardCallActionText--bannerInformativo3 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo3 {
+  width: 100%;
+}
+
+
+
+.infoCardContainer--bannerInformativo4 {
+  height: 390px;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo4 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo4::before {content: "";width: 40px;height: 40px;background: url(https://sikaco.vteximg.com.br/arquivos/icon-ask.png);background-repeat: no-repeat;background-position: center;background-color: #EDEDED;margin: 6px;border-radius: 4px;}
+.infoCardHeadline--bannerInformativo4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo4::after {content: "";background: #f5b325;width: 74%;position: absolute;height: 3px;top: 100%;border-radius: 5px;}
+.infoCardCallActionText--bannerInformativo4 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo4 {
+  width: 100%;
+}
+
+.infoCardContainer--bannerInformativo5 {
+  height: 390px;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo5 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo5::before {content: "";width: 40px;height: 40px;background: url(https://sikaco.vteximg.com.br/arquivos/icon-libro.png);background-repeat: no-repeat;background-position: center;background-color: #EDEDED;margin: 6px;border-radius: 4px;}
+.infoCardHeadline--bannerInformativo5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo5::after {content: "";background: #f5b325;width: 74%;position: absolute;height: 3px;top: 100%;border-radius: 5px;}
+.infoCardCallActionText--bannerInformativo5 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo5 {
+  width: 100%;
+}
+
+
+
+.infoCardContainer--bannerInformativo:hover .infoCardTextContainer--bannerInformativo {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardTextContainer--bannerInformativo2 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardTextContainer--bannerInformativo3 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardTextContainer--bannerInformativo4 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardTextContainer--bannerInformativo5 {
+  background: #f5b325;
+}
+
+
+.infoCardCallActionText--bannerInformativo {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo2 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo2 {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo3 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo3 {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo4 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo4 {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo5 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo5 {
+  margin: 10px auto;
+}
+
+
+.infoCardContainer--bannerInformativo:hover .infoCardCallActionText--bannerInformativo {
+  display: block;
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardCallActionText--bannerInformativo2 {
+  display: block;
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardCallActionText--bannerInformativo3 {
+  display: block;
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardCallActionText--bannerInformativo4 {
+  display: block;
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardCallActionText--bannerInformativo5 {
+  display: block;
+}
+
+.infoCardContainer--bannerInformativo:hover .infoCardHeadline--bannerInformativo::after {
+  background: white 
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardHeadline--bannerInformativo2::after {
+  background: white 
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardHeadline--bannerInformativo3::after {
+  background: white 
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardHeadline--bannerInformativo4::after {
+  background: white 
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardHeadline--bannerInformativo5::after {
+  background: white 
+}
+
+.infoCardContainer--bannerInformativo::before {content: "";position: absolute;width: 93%;height: 7px;background: #f5b325;top: -2%;left: 4%;border-radius: 8px 8px 0px 0px;}
+.infoCardContainer--bannerInformativo2::before {content: "";position: absolute;width: 93%;height: 7px;background: #f5b325;top: -2%;left: 4%;border-radius: 8px 8px 0px 0px;}
+.infoCardContainer--bannerInformativo3::before {content: "";position: absolute;width: 93%;height: 7px;background: #f5b325;top: -2%;left: 4%;border-radius: 8px 8px 0px 0px;}
+.infoCardContainer--bannerInformativo4::before {content: "";position: absolute;width: 93%;height: 7px;background: #f5b325;top: -2%;left: 4%;border-radius: 8px 8px 0px 0px;}
+.infoCardContainer--bannerInformativo5::before {content: "";position: absolute;width: 93%;height: 7px;background: #f5b325;top: -2%;left: 4%;border-radius: 8px 8px 0px 0px;}
+
+
+.infoCardContainer--segundo {
+  padding-left: 100px;
+  padding-right: 110px;
+}
+.infoCardHeadline--segundo {
+  width: 100%;
+  text-align: left;
+}
+.infoCardSubhead--segundo {
+  text-align: inherit;
+  width: 80%;
+  margin: 0 auto 0 0;
+}
+.infoCardSubhead--segundo::before {content: "";position: relative;background: #f5b325;width: 100px;height: 6px;display: block;margin: 15px 0;}
+.infoCardImageContainer--segundo::before {content: "";position: absolute;background: #f5b325;width: 8px;height: 12%;display: block;margin: 15px 0 0 -.5%;z-index: 999999;}
+.infoCardImageContainer--segundo {
+  display: flex;
+}
+.infoCardCallActionText--BannerDos::before {content: "";width: 25px;height: 25px;background: url(https://sikaco.vteximg.com.br/arquivos/icon-entrada.png);display: block;position: absolute;left: 36px;margin: -5px -5px;background-size: 100%;}
+
+.infoCardHeadline--BannerDos::after {content: "";background: #f5b325;width: 128px;position: relative;height: 6px;display: block;margin: 12px 0 0;border-radius: 18px;}
+.infoCardHeadline--bannernewws {
+  color: white;
+  font-weight: 400;
+}
+.infoCardHeadline--bannernewws::after {content: "";background: #f5b325;position: relative;width: 135px;height: 4px;display: block;top: 10px;border-radius: 12px;}
+.infoCardContainer--LogoFooter {
+  height: 116px;
+  /* margin: 0 auto 0 -32px; */
+  width: 80%;
+}
+.infoCardContainer--Logored {
+  background-size: 33% !important;
+  background-position: center;
+  margin: 10px 0 0 -39px;
+}
+.infoCardContainer--bannernewws {
+  border-radius: 7px;
+}
+
+.productImage--imagenesEspecificaciones:last-child {
+  display: block;
+}
+.productImage--imagenesEspecificaciones {
+  display: none;
+}
+.productImage--imagenesEspecificaciones:last-child {
+  display: flex;
+  justify-content: end;
+  margin: 0 0 0 auto;
+}
+
+.productImage--imagenesEspecificaciones::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 391px;
+  background: #f5b325;
+  position: absolute;
+  margin: 16% 0 0px 2%;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .imageElement--BannerPagosD{
+    display: none;
+  }
+  .infoCardContainer--bannerM{
+    display: block !important;
+    background-color: transparent;
+  }
+  .infoCardTextContainer--bannerM{
+    display: none;
+  }
+  .logoImage {
+    max-width: 84%;
+   /* margin-top: 20px;*/
+    margin-left: 14px;
+    width: 57%;
+  }
+  .logoContainer--logoImg {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .infoCardContainer--bannerC{
+    display: none;
+  }
+  .infoCardContainer--Mio {
+    min-height: 343px !important;
+  }
+  :global(.vtex-store__template){
+    overflow: hidden;
+  }
+  .infoCardHeadline--segundo {
+    font-size: 33px;
+    font-family: 'Century Gothic';
+  }
+  /*Ctegoria 3*/
+  .infoCardImageContainer--marcas-icon3::before{
+    opacity: 1;
+    left: 24%;
+    top: 13%; 
+    z-index: 999999;
+  }
+  /*Ctegoria 4*/
+  .infoCardImageContainer--marcas-icon4::before{
+    opacity: 1;
+    z-index: 999999;
+    width: 70px;
+  }
+  /*Ctegoria 1*/
+  .infoCardImageContainer--marcas-icon1::before{
+    opacity: 1;
+    left: 32%;
+    width: 53px;
+    z-index: 999999;
+  }
+  /*Ctegoria 2*/
+  .infoCardImageContainer--marcas-icon2::before{
+    opacity: 1;
+    top: 26%;
+    z-index: 999999;
+    left: 21%;
+  }
+  /*Ctegoria 5*/
+  .infoCardImageContainer--marcas-icon5::before{
+    opacity: 1;
+    width: 70px;
+    top: 16%;
+    z-index: 999999;
+  }
+  /*Ctegoria 6*/
+  .infoCardImageContainer--marcas-icon6::before{
+    opacity: 1;
+    width: 70px;
+    top: 19%;
+    left: 31%;
+    z-index: 999999;
+  }
+  /*Ctegoria 7*/
+  .infoCardImageContainer--marcas-icon7::before{
+    opacity: 1;
+    width: 70px;
+    left: 32%;
+    z-index: 999999;
+  }
+  /*Ctegoria 8*/
+  .infoCardImageContainer--marcas-icon8::before{
+    opacity: 1;
+    width: 70px;
+    left: 35%;
+    z-index: 999999;
+  }
+  /*Ctegoria 9*/
+  .infoCardImageContainer--marcas-icon9::before{
+    opacity: 1;
+    width: 70px;
+    top: 15%;    
+    z-index: 999999;
+  }
+  /*Ctegoria 10*/
+  .infoCardImageContainer--marcas-icon10::before{
+    opacity: 1;
+    width: 70px;
+    top: 16%;
+    left: 29%;    
+    z-index: 999999;
+  }
+  /*Ctegoria 11*/
+  .infoCardImageContainer--marcas-icon11::before{
+    opacity: 1;
+    width: 70px;
+    top: 17%;
+    left: 42%;
+    z-index: 999999;
+  }
+  /*Ctegoria 12*/
+  .infoCardImageContainer--marcas-icon12::before{
+    opacity: 1;
+    width: 70px;
+    left: 35%;
+    top: 18%;
+    z-index: 999999;
+  }
+  /*Ctegoria 13*/
+  .infoCardImageContainer--marcas-icon13::before{
+    opacity: 1;
+    width: 60px;
+    left: 33%;
+    top: 16%;
+    z-index: 999999;
+  }
+  /*Ctegoria 13*/
+  .infoCardImageContainer--marcas-icon14::before{
+    opacity: 1;
+    width: 70px;
+    left: 29%;
+    top: 16%;
+    z-index: 999999;
+  }
+  .infoCardCallActionContainer--Mio {
+    z-index: 9999;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .infoCardHeadline--BannerDos {
+    font-size: 25px;
+    font-weight: bold;
+    bottom: 83px;
+    left: 15px;
+    width: 83%;
+  }
+  .infoCardCallActionContainer--BannerDos {
+    width: 89%;
+    height: 63px;
+    margin: 0 6%;
+  }
+  .infoCardCallActionText--BannerDos {
+    font-size: 18px;
+  }
+  .infoCardContainer--BannerDos {
+    height: 387px;
+  }
+  .infoCardContainer--BannerDos{
+    margin: 0;
+    margin-left: 5px;
+  }
+  .autoCompleteOuterContainer {
+    border-radius: 6px;
+  }
+  .infoCardImage--textfool3 {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 18px;
+  }
+  .infoCardImageContainer--textfool3 {
+    width: 48%;
+  
+  }
+  .infoCardImageContainer--textfool2{
+    display: flex;
+    justify-content: center;
+  }
+  .productImagesGallerySlide{
+    margin: 0 auto;
+    width : 100% !important
+  }
+  .carouselGaleryThumbs{
+    display: block !important;
+  }
+  .imageElement--BannerProduct {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .infoCardCallActionContainer--descripcionEspec {
+    margin: -18px 0 0 60% !important;
+  }
+  .productDescriptionContainer{
+    margin-top: 10px;
+  }
+  .productImagesThumbActive {
+    height: auto !important;
+  }
+  .form--newsletter{
+    margin: 0px -12px;
+    padding: 0;
+    width: 38%;
+  }
+  .infoCardSubhead--QuienesSomos{
+    margin: 10px 15px;
+  }
+  .imageElement--QuienesSomosImg2 {
+    padding: 55px 0;
+    margin: -27px 20px;
+    width: 90%;
+    max-height: 100%;
+  }
+  .productImagesThumb {
+    height: auto !important;
+    margin-bottom: 0;
+    margin-left: 6px;
+  }
+  .productImagesThumb:first-child {
+    margin-left: 0px;
+  }
+  .productBrand {
+    color: #483d3d;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Century Gothic';
+    line-height: 24px;
+  }
+  .infoCardContainer--textfool2{
+    margin: 0 0 0 -13px;
+  }
+  .infoCardContainer--BannerDosUno {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+  .infoCardCallActionText--Mio{
+    font-weight: 400;
+  }
+  .infoCardContainer--segundo :global(.vtex-shelf-1-x-shelfContentContainer){
+    margin-bottom: 10px;
+  }
+  /*
+  .infoCardImage--marcas-icon1{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon2{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon3{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon4{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon5{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon6{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon7{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon8{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon9{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon10{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon11{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon12{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon13{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon14{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  */
+  /*Estilos de los textos en los banners del home*/
+  .imageElementLink--imagencomp1primera::before {
+    content: "COMPLETA TU ESTILO";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 74%;
+    align-items: center;
+  }
+  .imageElementLink--imagencomp1primera::before {
+    content: "COMPLETA TU ESTILO";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 74%;
+    align-items: center;
+  }
+  .imageElementLink--imagencomp1segunda::before {
+    content: "CUIDA TU SISTEMA RESPIRATORIO";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 165%;
+    align-items: center;
+  }
+  .imageElementLink--bannerLateralDerecho::before {
+    content: "AYUDARTE A MOVILIZAR";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 94%;
+    align-items: flex-end;
+  }
+  .inputGroup--newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .newsletter--newsletter {
+    width: 100%;
+  }
+  .form--newsletter {
+    width: auto !important;
+  }
+  .searchBarContainer{
+    width: 97%;
+  }
+  .buttonContainer--newsletter{
+    width: 100%;
+  }
+  .searchBarInnerContainer {
+    position: relative;
+    top: -15px;
+}
+.infoCardTextContainer--Mio {
+  margin: 20% 0 0 -14px;
+  padding: 0 0 0 30px;
+  background: #f5b325;
+  height: 125px;
+}
+.infoCardHeadline--Mio {
+  font-size: 29px;
+  margin: 9px 0 0 0;
+}
+.infoCardContainer--Mio {
+  width: 80%; 
+}
+.infoCardSubhead--Mio {
+  font-size: 12px;
+  margin: 2px;
+}
+.infoCardCallActionText--Mio {
+  color: white;
+  background: #483d3d;
+  padding: 11px;
+  font-size: 13px;
+}
+.infoCardTextContainer--Mio::after {
+  background: #483d3d;
+  width: 10px;
+}
+.infoCardCallActionText {
+  font-size: 13px;
+}
+.infoCardContainer--bannerInformativo {
+  width: 100%;
+}
+.infoCardContainer--bannerInformativo2 {
+  width: 100%;
+}
+.infoCardContainer--bannerInformativo3 {
+  width: 100%;
+}
+.infoCardContainer--bannerInformativo4 {
+  width: 100%;
+}
+.infoCardContainer--bannerInformativo5 {
+width: 100%;
+}
+.vtex-store-components-3-x-infoCardContainer--segundo {
+  padding: 0 15px;
+  display: block;
+}
+.infoCardContainer--segundo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 14px;
+}
+.infoCardImageContainer--segundo {
+  order: 1;
+  margin: 27px 0 -38px 0;
+}
+.infoCardTextContainer--segundo {
+  order: 2;
+}
+.infoCardImageContainer--segundo::before {
+  content: "";
+  width: 90%;
+  height: 7px;
+  margin: 23% 0 0 4px;
+}
+.infoCardHeadline--BannerDos {
+  top: 0;
+  bottom: auto;
+}
+
+.infoCardCallActionContainer--BannerDosUno {
+  bottom: 14px;
+  height: 47px;
+}
+
+.infoCardCallActionContainer--BannerDos {
+  bottom: 8px;
+  height: 50px;
+}
+.infoCardContainer--bannernewws::before {
+  content: "";
+  background: #f5b325;
+  width: 90%;
+  position: absolute;
+  height: 10px;
+  top: -10px;
+  left: 15px;
+  border-radius: 20px 20px 0 0;
+}
+.infoCardHeadline--bannernewws {
+  font-size: 25px;
+}
+.infoCardContainer--LogoFooterM {
+  width: 100%;
+  height: 108px;
+  background-size: 76% !important;
+}
+.productImage--imagenesEspecificaciones::before {
+  width: 95%;
+  height: 7px;
+  bottom: -3px;
+}
+.productImageTag--imagenesEspecificaciones--main {
+  margin: 15px auto 0;
+}
+}

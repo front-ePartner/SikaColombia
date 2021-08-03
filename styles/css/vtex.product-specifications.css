@@ -1,0 +1,135 @@
+.specificationName {
+    margin-right: 10px;
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    color: #483d3d;
+}
+.specificationName--especificacionesUno::after {
+    content: "";
+    background: #f5b325;
+    width: 45%;
+    height: 2px;
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    border-radius: 3px;
+    font-family: 'ROBOTO';
+}
+
+.specificationValue--especificacionesUno {
+    display: flex;
+}
+.groupName {
+    /*  display: none; */
+      visibility: hidden;
+  }
+  .specificationValue--last {color: #373636;line-height: 26px;font-size: 14px;}
+  
+  
+  .specificationItemProperty[data-specification="{Ficha-Tecnica}"] {
+      display: none;
+  }
+  .specificationValue--especificacionesCuatro
+  {
+      display: none;
+  }
+  .specificationName--especificacionesCuatro[data-specification-name="Ficha-Tecnica"],
+  .specificationName--especificacionesCuatro[data-specification-name="Manual"],
+  .specificationName--especificacionesCuatro[data-specification-name="Registro-sanitario"],
+  .specificationName--especificacionesCuatro[data-specification-name="Registro-sanitario 2"],
+  .specificationName--especificacionesCuatro[data-specification-name="Garantia"],
+  .specificationName--especificacionesCuatro[data-specification-name="Video-1"],
+  .specificationName--especificacionesCuatro[data-specification-name="Video-2"],
+  .specificationName--especificacionesCuatro[data-specification-name="Video-3"],
+  .specificationName--especificacionesCuatro[data-specification-name="Guia-inicio-rapido"]
+  {
+      display: block;
+      margin-bottom: 0;
+  }
+  .specificationValue--especificacionesCuatro[data-specification-name="Ficha-Tecnica"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Manual"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Registro-sanitario"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Registro-sanitario 2"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Garantia"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Video-1"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Video-2"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Video-3"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Guia-inicio-rapido"]
+  {
+      display: block;
+      
+      margin-bottom: 10px;
+  }
+  .specificationName--especificacionesCuatro
+  {
+      display: none;
+  }
+  .specificationName--especificacionesUno[data-specification-name="Ficha-Tecnica"],
+  .specificationName--especificacionesUno[data-specification-name="Manual"],
+  .specificationName--especificacionesUno[data-specification-name="Registro-sanitario"],
+  .specificationName--especificacionesUno[data-specification-name="Registro-sanitario 2"],
+  .specificationName--especificacionesUno[data-specification-name="Garantia"],
+  .specificationName--especificacionesUno[data-specification-name="Video-1"],
+  .specificationName--especificacionesUno[data-specification-name="Video-2"],
+  .specificationName--especificacionesUno[data-specification-name="Video-3"],
+  .specificationName--especificacionesUno[data-specification-name="Guia-inicio-rapido"]
+  {
+      display: none;
+  }
+  .specificationValue--especificacionesUno[data-specification-name="Ficha-Tecnica"],
+  .specificationValue--especificacionesUno[data-specification-name="Manual"],
+  .specificationValue--especificacionesUno[data-specification-name="Registro-sanitario"],
+  .specificationValue--especificacionesUno[data-specification-name="Registro-sanitario 2"],
+  .specificationValue--especificacionesUno[data-specification-name="Garantia"],
+  .specificationValue--especificacionesUno[data-specification-name="Video-1"],
+  .specificationValue--especificacionesUno[data-specification-name="Video-2"],
+  .specificationValue--especificacionesUno[data-specification-name="Video-3"],
+  .specificationValue--especificacionesUno[data-specification-name="Guia-inicio-rapido"]
+  {
+      display: none;
+  }
+
+  .specificationValue--especificacionesBENE
+  {
+      display: none;
+  }
+  .specificationName--especificacionesBENE
+  {
+      display: none;
+  }
+  .specificationName--especificacionesBENE[data-specification-name="Beneficios"] {
+    display: block;
+}
+  .specificationValue--especificacionesBENE[data-specification-name="Beneficios"] {
+    display: block;
+}
+.specificationName--especificacionesUno[data-specification-name="Beneficios"] {
+    display: none;
+}
+  .specificationValue--especificacionesUno[data-specification-name="Beneficios"] {
+    display: none;
+}
+
+.specificationValue--especificacionesRECO
+{
+    display: none;
+}
+.specificationName--especificacionesRECO
+{
+    display: none;
+}
+.specificationName--especificacionesRECO[data-specification-name="Recomendado para"] {
+  display: block;
+}
+.specificationValue--especificacionesRECO[data-specification-name="Recomendado para"] {
+  display: block;
+}
+
+.specificationName--especificacionesUno[data-specification-name="Recomendado para"] {
+    display: none;
+  }
+.specificationValue--especificacionesUno[data-specification-name="Recomendado para"] {
+    display: none;
+  }
+.specificationValue--last {color: #373636;line-height: 23px;font-size: 13px;}

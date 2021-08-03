@@ -1,0 +1,21 @@
+
+.trigger--SubMenuMovilidad :global(.vtex-menu-2-x-styledLinkContent){
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .content--reviews-and-ratings--visible{
+        margin: 0 25px;
+    }
+}

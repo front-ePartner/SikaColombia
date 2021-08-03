@@ -1,0 +1,1113 @@
+.searchResultContainer{
+    padding: 0;
+    margin: 0;
+}
+.galleryTitle--layout{
+    margin: 7px 100px 10px 100px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+    padding-bottom: 21px;
+    padding-top: 9px;
+}
+.gallery {
+    padding: 0;
+    margin-left: 1%;
+}
+.filterPopupTitle {
+    font-size: 12px;
+}
+.orderByText {
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    height: 30px;
+    padding: 5px;
+    color: #333;
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+.orderByText::after {
+    content: ":";
+}
+.filterPopupArrowIcon .caretIcon {
+    border: none;
+    color: black;
+}
+.galleryItem--normal :global(.vtex-product-summary-2-x-imageNormal){
+    max-height: 16.56rem!important;
+}
+.showingProducts {
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    height: 30px;
+    padding: 5px;
+    color: #333;
+    font-size: 13px;
+    line-height: 30px;
+}
+.filterMessage {
+    font-size: 14px;
+    font-weight: 700;
+}
+.filterAvailable{
+    padding: 14px 0;
+}
+.filterTitle{
+    color: rgba(58, 58, 58, 0.867);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.filterTitle :global(.vtex-tag){
+    color: silver;
+    font-size: 10px;
+    background: #f6f6f6 !important;
+    margin: 0;
+    padding: 0 11px !important;
+}
+.filterTitle {
+    position: relative;
+}
+.filter__container{
+    border-bottom: 1px solid rgba(58, 58, 58, 0.867);
+}
+.categoryItemName{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 3px;
+    color: black;
+}
+
+.categoryItemChildren {
+    font-size: 14px;
+    color: black;
+}
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
+    font-size: 13px;
+    color: rgba(58,58,58,0.867);
+    font-weight: 500;
+    border: 1px solid #eee;
+    padding: 3px;
+    text-transform: uppercase;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.categoryItemChildrenContainer :global(.vtex__icon-close) {
+    padding: 0 28px 0 0;
+    color: black;
+}
+.filterItem :global(.vtex-checkbox__inner-container){
+    border: 1px solid rgba(58,58,58,0.867);
+}
+.selectedCategoryName {
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.filterItem :global(.vtex__icon-check) {
+    color: black;
+    width: 10px;
+    height: 10px;
+}
+
+.filterItem :global(.vtex-checkbox__box-wrapper) {
+    width: 10px;
+    height: 10px;
+    box-shadow: -2px 3px 15px -3px rgba(0,0,0,0.38);
+}
+.filterItem :global(.vtex-checkbox__container) {
+    width: 10px;
+    margin: 4px 6px 0 0;
+    height: 10px;
+}
+.filterItem :global(.vtex-checkbox__inner-container) {
+    width: 10px;
+    height: 10px;
+}
+.filterItem :global(.vtex-checkbox__line-container) {
+    padding: 0 5px;
+}
+.filter__container .caretIcon{
+    position: absolute;
+}
+.caretIcon{
+    color: rgb(245 179 37);
+    width: 15px;
+    height: 15px;
+    padding: 0 0px 0 0;
+}
+.filter__container{
+    padding: 0 10px;
+    margin: 0 0 0px 0;
+    border-top: 1px solid;
+    border-bottom: 0;
+}
+.filter__container--title{
+    border: none;
+}
+.showingProducts {
+    text-align: end;
+}
+.buttonShowMore :global(.vtex-button__label){
+    background: #ffc100;
+    color: black;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+}
+.buttonShowMore--layout{
+    margin: 40px 0 50px 0;
+}
+.searchResultContainer {
+    max-width: 100%;
+}
+.galleryItem--normal{
+    height: auto;
+    padding: 0;
+  /*  min-height: 454px;*/
+}
+.filter__container--title{
+    display: none;
+}
+.orderByOptionItem {
+    min-width: 242px;
+}
+.orderByOptionsContainer {
+    margin-top: 31px;
+}
+.filterSelected .filterTitle {
+    font-size: 0;
+    color: #000000;
+}
+.filterSelected .filterTitle::before{
+    content: "FILTROS SELECCIONADOS: ";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+.filter__container--selectedFilters{
+    background-color: white;
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.filter__container--selectedFilters  :global(.vtex-checkbox__line-container){
+    padding: 0 34px 0 2px;
+}
+.filter__container--selectedFilters  :global(.vtex-checkbox__line-container)::before{
+    content: "X";
+    position: relative;
+    font-weight: bold;
+    color: #000000;
+    font-size: 13px;
+    left: 85%;
+    top: 5px;
+    z-index: 9;
+}
+.filterItem--selected{
+    margin-bottom: 5px;
+}
+.filterItem--selected :global(.vtex-checkbox__container) {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 9999;
+    opacity: 0;
+}
+
+.filterItem :global(.vtex-checkbox__label){
+    font-size: 14px;
+}
+.filterContent :global(.vtex-checkbox__container){
+    content: "";
+    background: white;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: 0px;
+    top: 3px;
+    left: 0px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    transition: all 40ms;
+    margin-right: 5px;
+}
+.filterContent :global(.vtex-checkbox__inner-container){
+    display: none;
+}
+.filter__container--priceRange .filterTitle{
+    font-size: 0;
+}
+.filter__container--priceRange .filterTitle::before{
+    content: "FILTRO POR PRECIO";
+    font-size: 15px;
+    color: #000000;
+    font-weight: 300;
+}
+.filter__container--priceRange :global(.vtex-slider__base){
+    background-color: #191531 !important;
+}
+.filter__container--priceRange :global(.vtex-slider__selector-container){
+    background-color: #0e0291 !important;
+    border-radius: 50%;
+}
+.filter__container--priceRange :global(.vtex-slider__values-container){
+    justify-content: center;
+}
+.filter__container {
+    background: white;
+    margin: 10px;
+    border-color: snow;
+    border-radius: 10px;
+}
+.filterItem--selected {
+    font-weight: 700;
+}
+.filterItem--selected :global(.vtex-checkbox__label)::after {content: "";background: #f5b325;width: 7px;height: 7px;position: absolute;border-radius: 10px;top: 5px;margin: 0 6px;}
+.filterContent :global(.vtex-checkbox__container) {
+    display: flex;
+}
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
+    background: #f5b325;
+    border-radius: 6px;
+}
+.filterTemplateOverflow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.filterItem--selected {
+    width: auto;
+    padding: 0;
+    border: none;
+}
+.filter__container--selectedFilters :global(.vtex-checkbox__line-container) {
+    width: 115%;
+}
+.caretIcon {
+    border: .5px solid #00000052;
+    padding: 3px;
+    margin: 0 0 0 -6px;
+    border-radius: 50%;
+}
+.filterIsOpen {
+    border-bottom: 2px solid #00000014;
+    margin: 0 0 15px 0;
+}
+.filterContent .filterItem--selected {
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .galleryItem--normal {
+        height: auto !important;
+        max-width: 50% !important;
+    }
+    .showingProducts{
+        display: none;
+    }
+    .filtersWrapperMobile{
+        justify-content: flex-start;
+    }
+    .galleryTitle--layout {
+        margin:7px 23px 0 22px;
+        color: #333;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: unset;
+        display: block;
+        border-bottom: 1px solid #E5E5E5;
+        padding-bottom: 21px;
+        padding-top: 9px;
+    }
+    .orderByText {
+        display: none;
+    }
+    .filterPopupArrowIcon{
+        position: absolute;
+        right: 0;
+    }
+    .orderByDropdown {
+        background: white;
+        padding: 11px 14px;
+        margin: 5px 0;
+        border-radius: 10px;
+        border: none;
+        margin: 6px auto 0 1%;
+    }
+    .filterPopupTitle {
+        font-size: 0;
+    }
+    .orderByButton .filterPopupTitle::before {
+        font-size: 12px;
+        content: "ORDENAR POR: ";
+        color: #000000;
+        font-weight: 700;
+    }
+    .filtersWrapperMobile .filterPopupTitle::before{
+        font-size: 13px;
+        content: "FILTRAR POR: ";
+        color: #000000;
+        font-weight: 700;
+    }
+    .filtersWrapperMobile{
+        border-bottom: none;
+        padding: 0px 18px;
+        background: white;
+        margin: 5px 0;
+        border-radius: 10px;
+    }
+    .filterIcon{
+        display: none;
+    }
+    /*
+    .caretIcon{
+        display: none;
+    }*/
+    .container--selectedFilters {
+        display: block;
+    }
+    .filtersWrapperMobile .filterPopupArrowIcon::before {
+        content: "";
+        background: url(https://sikaco.vteximg.com.br/arquivos/flecha-derecha-filtro.png)no-repeat;
+        background-size: 60%;
+        font-size: 10px;
+        display: block;
+        width: 23px;
+        height: 23px;
+        margin-top: 0px;
+        top: -10px;
+        right: 8px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 5px;
+        background-position: center;
+        border: 1px solid #c1c6cd;
+        border-radius: 50%;
+    }
+    /*
+    .filterPopupArrowIcon::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 80%;
+        font-size: 10px;
+        display: block;
+        width: 23px;
+        height: 23px;
+        margin-top: 0px;
+        top: -9px;
+        right: 9px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 5px;
+    }*/
+    .filterAccordionBreadcrumbs {
+        background: transparent;
+    }
+    /*
+    .accordionFilterItemIcon::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin-top: 0px;
+        top: 0px;
+        right: 0;
+        transition: all 40ms;
+        margin-right: 5px;
+    }*/
+    .orderBy--layout .filterPopupTitle {
+        font-size: 12px;
+    }
+    .orderByButton {
+        margin: 0 37px 0 auto;
+    }
+    .accordionFilterItemTitle{
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .filterBreadcrumbsItemName {
+        font-size: 15px;
+    }
+    .sidebar {
+        width: 85%;
+        background-color: #f6f6f6;
+    }
+    .filterClearButtonWrapper :global(.vtex-button__label){
+        color: #191531;
+    }
+    .filterApplyButtonWrapper :global(.vtex-button__label){
+        color: #191531;
+    }
+    .orderByOptionItem {
+        margin-left: 10px;
+    }
+    .orderByOptionsContainer {
+        padding: 10px;
+        position: relative;
+        margin-top: 0px;
+        box-shadow: 0 0 0 0;
+        background: transparent;
+    }
+    .accordionFilterContent {
+        padding: 0;
+    }
+    .filterAccordionItemBox{
+        min-height: 45px;
+        /* border-top: 1px solid rgba(58,58,58,0.867); */
+        padding: 10px 10px;
+        margin: 5px 10px 5px 0;
+        background: white;
+        border-radius: 8px;
+    }
+    .accordionFilterItemOptions .filterAccordionItemBox {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        margin: 0 0 0 0px;
+        font-size: 13px;
+    }
+
+    .accordionFilterItemOptions {
+        margin-left: -12%;
+        width: 108%;
+        margin-top: -8px;
+        border-radius: 0px 0 10px 10px;
+        background: white;
+        border-top: 1px solid #d6d6d6;
+    }
+    .accordionFilterContainer{
+        padding-left: 15px;
+    }
+    .accordionSelectedFilters {
+        font-weight: 600;
+        padding-left: 0;
+        display: flex;
+    }
+    .accordionSelectedFilters::after {content: "";width: 6px;background: #f5b325;height: 6px;display: block;border-radius: 50%;margin: auto 6px;}
+
+    .accordionFilterItemOptions :global(.vtex-checkbox__container) {
+        display: flex;
+        order: 2;
+    }
+    .accordionFilterItemOptions :global(.vtex-checkbox__inner-container) {
+        border-radius: 50%;
+        margin: 0px auto 0 0px;
+    }
+    /*.filterBreadcrumbsText::before {
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/59173.png)no-repeat;
+        background-size: 79%;
+        font-size: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        transition: all 40ms;
+        margin-right: 5px;
+        position: absolute;
+        top: 48px;
+        left: 16px;
+    }*/
+}
+.filter__container--accesorios {
+    display: none;
+}
+.filter__container--altura-del-apoyabrazos {
+    display: none;
+}
+.filter__container--altura-del-reposapies-al-piso {
+    display: none;
+}
+.filter__container--altura-del-respaldo {
+    display: none;
+}
+.filter__container--altura-hasta-el-asiento {
+    display: none;
+}
+.filter__container--ancho {
+    display: none;
+}
+.filter__container--ancho-del-asiento {
+    display: none;
+}
+.filter__container--basculacion {
+    display: none;
+}
+.filter__container--calibre-del-tubo {
+    display: none;
+}
+.filter__container--capacidad-de-peso {
+    display: none;
+}
+.filter__container--caracteristicas-especiales {
+    display: none;
+}
+.filter__container--estilo-del-apoyabrazos {
+    display: none;
+}
+.filter__container--estilo-del-reposapies {
+    display: none;
+}
+.filter__container--ficha-tecnica {
+    display: none;
+}
+.filter__container--material-del-apoyabrazos {
+    display: none;
+}
+.filter__container--garantia {
+    display: none;
+}
+.filter__container--material-del-asiento {
+    display: none;
+}
+.filter__container--material-del-respaldo {
+    display: none;
+}
+.filter__container--material-rueda-delantera {
+    display: none;
+}
+.filter__container--plataforma-del-reposapies {
+    display: none;
+}
+.filter__container--profundidad-del-asiento {
+    display: none;
+}
+.filter__container--registro-sanitario {
+    display: none;
+}
+.filter__container--repuestos {
+    display: none;
+}
+.filter__container--tamano-llantas-traseras {
+    display: none;
+}
+.filter__container--tipo-de-apoyo {display: none;}
+.filter__container--tamano-rueda-delantera {
+    display: none;
+}
+.filter__container--tipo-de-estructura {
+    display: none;
+}
+.filter__container--tipo-de-freno-llanta-trasera {
+    display: none;
+}
+.filter__container--tipo-de-llanta-trasera {
+    display: none;
+}
+.filter__container--tipo-de-respaldo {
+    display: none;
+}
+.filter__container--tipo-de-rin-llantas-traseras {
+    display: none;
+}
+.filter__container--tipo-de-rin-rueda-delantera {
+    display: none;
+}
+.filter__container--vida-util {
+    display: none;
+}
+.filter__container--altura-de-la-empunadura--del-asiento-al-asa- {
+    display: none;
+}
+.filter__container--altura-hasta-al-asiento {
+    display: none;
+}
+.filter__container--video-2 {
+    display: none;
+}
+.filter__container--video-1 {
+    display: none;
+}
+.filter__container--registro-sanitario-2 {
+    display: none;
+}
+.filter__container--tipo-de-ruedas {
+    display: none;
+}
+.filter__container--tipo-de-caminador {display: none;}
+
+.filter__container--tamano-del-tapon {
+    display: none;
+}
+.filter__container--tamano-de-las-ruedas {
+    display: none;
+}
+.filter__container--ancho-del-caminador {
+    display: none;
+}
+.filter__container--estilo-de-asas {
+    display: none;
+}
+.filter__container--tamano-de-la-rueda {
+    display: none;
+}
+.filter__container--material-del-tapon {
+    display: none;
+}
+.filter__container--material-de-la-empunadura {
+    display: none;
+}
+.filter__container--manual {
+    display: none;
+}
+.filter__container--material-del-apoyo {
+    display: none;
+}
+.filter__container--partes {
+    display: none;
+}
+.filter__container--tipo-de-producto {
+    display: none;
+}
+.filter__container--tecnologia {
+    display: none;
+}
+.filter__container--tamano-del-apoyo-delantero {
+    display: none;
+}
+.filter__container--tipo-de-empunadura {
+    display: none;
+}
+.filter__container--tipo-de-cana {
+    display: none;
+}
+.filter__container--sistema-de-tension {
+    display: none;
+}
+.filter__container--sistema-de-graduacion-de-altura {
+    display: none;
+}
+.filter__container--peso-de-la-persona {
+    display: none;
+}
+.filter__container--material-empunadura {
+    display: none;
+}
+.filter__container--diametro-exterior-tubo-superior {
+    display: none;
+}
+.filter__container--diametro-externo-tubo-inferior {
+    display: none;
+}
+.filter__container--grados-de-reclinacion {
+    display: none;
+}
+.filter__container--color-empunadura {
+    display: none;
+}
+.filter__container--material-cana {
+    display: none;
+}
+
+.filter__container--tipo-de-caminador  { display: none; }
+.filter__container--saturación-de-oxigeno { display: none; }
+.filter__container--material-del-apoyabrazos { display: none; }
+.filter__container--tecnologia { display: none; }
+.filter__container--precisión-del-pulso--ppm- { display: none; }
+.filter__container--capacidad-de-memoria { display: none; }
+.filter__container--precisión-de-la-presión--mmhg- { display: none; }
+.filter__container--metodo-de-inflación { display: none; }
+.filter__container--tiempo-de-apagado--s- { display: none; }
+.filter__container--metodo-de-desinflado { display: none; }
+.filter__container--partes { display: none; }
+.filter__container--frecuencia-cardiaca { display: none; }
+.filter__container--resolución-de-saturación-de-oxigeno { display: none; }
+.filter__container--resolución-de-la-frecuencia-cardiaca { display: none; }
+.filter__container--precisión-de-la-saturación-de-oxigeno { display: none; }
+.filter__container--precisión-de-la-frecuencia-cardiaca { display: none; }
+.filter__container--corriente-de-trabajo { display: none; }
+.filter__container--longitud-de-onda { display: none; }
+.filter__container--protección-contra-entrada-de-liquidos { display: none; }
+.filter__container--caracteristicas-especiales { display: none; }
+.filter__container--altura-del-suelo-a-la-estructura { display: none; }
+.filter__container--altura-hasta-los-brazos { display: none; }
+.filter__container--sistema-de-ajuste-de-brazos { display: none; }
+.filter__container--repuestos { display: none; }
+.filter__container--calibre-del-tubo { display: none; }
+.filter__container--material-del-apoyo { display: none; }
+.filter__container--tamaño-del-apoyo-delantero { display: none; }
+.filter__container--tamaño-del-apoyo-trasero { display: none; }
+.filter__container--basculación { display: none; }
+.filter__container--material-de-las-ruedas { display: none; }
+.filter__container--tamaño-de-las-ruedas { display: none; }
+.filter__container--material-del-arnes { display: none; }
+.filter__container--tamaño-del-arnes { display: none; }
+.filter__container--apertura-interior { display: none; }
+.filter__container--vida-útil { display: none; }
+.filter__container--resolución--mmhg- { display: none; }
+.filter__container--resolución--mmhg- { display: none; }
+.filter__container--diametro-del-manómetro { display: none; }
+.filter__container--tamaño-del-manómetro { display: none; }
+.filter__container--diametro-del-dial { display: none; }
+.filter__container--material-de-la-vejiga { display: none; }
+.filter__container--material-del-brazalete { display: none; }
+.filter__container--material-de-la-pera { display: none; }
+.filter__container--largo-del-brazalete { display: none; }
+.filter__container--largo-del-tubo-de-conexión-pera---vejiga { display: none; }
+.filter__container--largo-del-tubo-de-conexión-manometro---vejiga { display: none; }
+.filter__container--tipo-de-empaque { display: none; }
+.filter__container--color-secundario { display: none; }
+.filter__container--tipo-de-fonendoscopio { display: none; }
+.filter__container--tipo-de-tensiómetro { display: none; }
+.filter__container--tipo-de-pera { display: none; }
+.filter__container--tipo-de-iluminación-otoscopio { display: none; }
+.filter__container--tipo-de-bombillo-otoscopio { display: none; }
+.filter__container--rango-de-ampliación-otoscopio { display: none; }
+.filter__container--clases-de-especulos-otoscopio { display: none; }
+.filter__container--intensidad-de-luz--lumenex--otoscopio { display: none; }
+.filter__container--tipo-de-iluminación-oftalmoscopio { display: none; }
+.filter__container--tipo-de-bombillo-oftalmoscopio { display: none; }
+.filter__container--cantidad-de-aperturas-oftalmoscopio { display: none; }
+.filter__container--rango-de-lentes-oftalmoscopio { display: none; }
+.filter__container--voltaje-del-otoscopio { display: none; }
+.filter__container--voltaje-del-oftalmoscopio { display: none; }
+.filter__container--voltaje-de-las-baterias { display: none; }
+.filter__container--material-del-mango { display: none; }
+.filter__container--material-de-la-cabeza { display: none; }
+.filter__container--ancho { display: none; }
+.filter__container--color-del-mango { display: none; }
+.filter__container--color-de-la-cabeza { display: none; }
+.filter__container--tipo-de-respuesta { display: none; }
+.filter__container--tipo-de-punta { display: none; }
+.filter__container--tamaño-del-lcd { display: none; }
+.filter__container--bateria { display: none; }
+.filter__container--tiempo-de-vida-de-la-bateria { display: none; }
+.filter__container--alarma-de-fiebre { display: none; }
+.filter__container--resistente-al-agua { display: none; }
+.filter__container--bombillo { display: none; }
+.filter__container--voltaje-del-bombillo { display: none; }
+.filter__container--esterilizable { display: none; }
+.filter__container--uso-pinza-de-disección-de-14-cm { display: none; }
+.filter__container--uso-pinza-de-disección-con-garra-de-14-cm { display: none; }
+.filter__container--uso-pinza-mosquito-de-14-cm { display: none; }
+.filter__container--uso-tijera-de-operación-curva-14-cm { display: none; }
+.filter__container--uso-tijera-de-operación-recta { display: none; }
+.filter__container--uso-mango-para-bisturi-no-3 { display: none; }
+.filter__container--presentación { display: none; }
+.filter__container--uso-mango-para-bisturi-no-4 { display: none; }
+.filter__container--uso-sonda-acanalada { display: none; }
+.filter__container--uso-indicado { display: none; }
+.filter__container--uso-porta-agujas-mayo-hegar-de-14-cm { display: none; }
+.filter__container--uso-pinza-kelly-recta-de-14-cm { display: none; }
+.filter__container--pinza-kelly-curva-de-14-cm { display: none; }
+.filter__container--ganchos-separadores--erinas- { display: none; }
+.filter__container--material-de-la-hoja { display: none; }
+.filter__container--material-del-reposadero { display: none; }
+.filter__container--tamaño { display: none; }
+.filter__container--material-del-estuche { display: none; }
+.filter__container--color-del-estuche { display: none; }
+.filter__container--material-de-la-valvula { display: none; }
+.filter__container--material-de-la-mascara { display: none; }
+.filter__container--tamaño-de-la-mascara { display: none; }
+.filter__container--color-de-la-mascara { display: none; }
+.filter__container--color-de-la-valvula { display: none; }
+.filter__container--dimensiones-del-estuche { display: none; }
+.filter__container--material-de-la-correa { display: none; }
+.filter__container--material-del-sistema-de-seguridad { display: none; }
+.filter__container--ancho { display: none; }
+.filter__container--diametro-maximo { display: none; }
+.filter__container--grosor { display: none; }
+.filter__container--unidades-por-rollo { display: none; }
+.filter__container--color-de-la-cinta-metrica { display: none; }
+.filter__container--color-de-la-numeración { display: none; }
+.filter__container--forma-de-la-carcasa { display: none; }
+.filter__container--rango-de-medición { display: none; }
+.filter__container--material-de-la-carcasa { display: none; }
+.filter__container--material-de-la-cinta { display: none; }
+.filter__container--mecanismo-de-liberación { display: none; }
+.filter__container--mecanismo-de-bloqueo-de-medición { display: none; }
+.filter__container--material-de-la-espiga { display: none; }
+.filter__container--unidades-de-medición { display: none; }
+.filter__container--tensión--v- { display: none; }
+.filter__container--corriente--a- { display: none; }
+.filter__container--botones { display: none; }
+.filter__container--tensión-entrada--v- { display: none; }
+.filter__container--tensión-salida--v- { display: none; }
+.filter__container--canales-de-salida { display: none; }
+.filter__container--ancho-total { display: none; }
+.filter__container--alto-testero { display: none; }
+.filter__container--altura-piso-a-la-cama--con-llantas- { display: none; }
+.filter__container--calibre-de-la-estructura { display: none; }
+.filter__container--largo-interior { display: none; }
+.filter__container--tamaño-llantas { display: none; }
+.filter__container--largo-base-cabecero { display: none; }
+.filter__container--largo-base-piecero { display: none; }
+.filter__container--tipo-de-base { display: none; }
+.filter__container--sistema-de-elevación-del-piecero { display: none; }
+.filter__container--sistema-de-elevación-del-cabecero { display: none; }
+.filter__container--sistema-de-ajuste-de-altura-de-la-cama { display: none; }
+.filter__container--material-de-la-estructura { display: none; }
+.filter__container--material-de-los-testeros { display: none; }
+.filter__container--llantas { display: none; }
+.filter__container--angulo-de-inclinación-maximo-piecero-y-cabecero { display: none; }
+.filter__container--canales { display: none; }
+.filter__container--intensidad-de-pulso { display: none; }
+.filter__container--frecuencia-de-pulso { display: none; }
+.filter__container--ancho-de-pulso { display: none; }
+.filter__container--modos-de-funcionamiento { display: none; }
+.filter__container--tiempo { display: none; }
+.filter__container--indicador-horas-de-tratamiento-del-paciente { display: none; }
+.filter__container--bloqueo-por-control-medico { display: none; }
+.filter__container--maxima-carga-por-pulso { display: none; }
+.filter__container--indicaciones-de-uso { display: none; }
+.filter__container--material-exterior { display: none; }
+.filter__container--material-interno { display: none; }
+.filter__container--mecanismo-de-inflado { display: none; }
+.filter__container--sistema-de-ajuste { display: none; }
+.filter__container--temperatura-minima-que-libera { display: none; }
+.filter__container--temperatura-maxima-que-libera { display: none; }
+.filter__container--tiempo-maximo-de-uso { display: none; }
+.filter__container--aplicaciones-para-el-frio { display: none; }
+.filter__container--aplicaciones-para-el-calor { display: none; }
+.filter__container--tipo-de-tela { display: none; }
+.filter__container--composición { display: none; }
+.filter__container--tipo-de-costura { display: none; }
+.filter__container--tela-externa { display: none; }
+.filter__container--tela-interena { display: none; }
+.filter__container--silicona { display: none; }
+.filter__container--largo-superior { display: none; }
+.filter__container--largo-medial { display: none; }
+.filter__container--largo-inferior { display: none; }
+.filter__container--alto-de-la-parte-superior-al-inicio-del-orifio { display: none; }
+.filter__container--alto-de-la-parte-inferior-al-inicio-del-orificio { display: none; }
+.filter__container--diametro-del-orificio { display: none; }
+.filter__container--diametro-del-circulo-en-gel { display: none; }
+.filter__container--talla { display: none; }
+.filter__container--largo-de-velcro-macho-superior { display: none; }
+.filter__container--largo-velcro-hembra-superior { display: none; }
+.filter__container--alto-del-velcro { display: none; }
+.filter__container--largo-de-velcro-macho-inferior { display: none; }
+.filter__container--largo-velcro-hembra-inferior { display: none; }
+.filter__container--material-de-la-lamina { display: none; }
+.filter__container--largo-de-la-lamina-superior { display: none; }
+.filter__container--largo-de-la-lamina-inferior { display: none; }
+.filter__container--grosor-de-la-lamina { display: none; }
+.filter__container--indicaciones { display: none; }
+.filter__container--efectos { display: none; }
+.filter__container--color-del-borde { display: none; }
+.filter__container--color-reatas { display: none; }
+.filter__container--color-de-la-tela-central { display: none; }
+.filter__container--color-del-soporte-de-la-reata { display: none; }
+.filter__container--color-hebillas { display: none; }
+.filter__container--largo-del-cabestrillo { display: none; }
+.filter__container--largo-de-la-reata-superior { display: none; }
+.filter__container--ancho-de-la-reata-superior { display: none; }
+.filter__container--alto-del-cabestrillo { display: none; }
+.filter__container--largo-de-la-reata-inferior { display: none; }
+.filter__container--ancho-de-la-reata-inferior { display: none; }
+.filter__container--largo-del-soporte-de-la-reata { display: none; }
+.filter__container--ancho-del-soporte-de-la-reata { display: none; }
+.filter__container--tipo-de-sujeción { display: none; }
+.filter__container--material-de-la-faja { display: none; }
+.filter__container--tipo-de-velcro { display: none; }
+.filter__container--material-de-la-barra { display: none; }
+.filter__container--cantidad-de-barras { display: none; }
+.filter__container--largo-barras { display: none; }
+.filter__container--ancho-barras { display: none; }
+.filter__container--largo-de-la-faja { display: none; }
+.filter__container--alto-de-la-faja { display: none; }
+.filter__container--alto-del-espaldar { display: none; }
+.filter__container--ancho-del-espaldar { display: none; }
+.filter__container--espacio-entre-las-barras-de-soporte-a-la-columna { display: none; }
+.filter__container--espacio-entre-las-barras-de-soporte-a-la-espalda { display: none; }
+.filter__container--ancho-de-las-cargaderas { display: none; }
+.filter__container--ancho-de-la-reata { display: none; }
+.filter__container--largo-total-de-la-reata { display: none; }
+.filter__container--largo-total-de-los-extensores-superiores { display: none; }
+.filter__container--largo-total-de-los-extensores-inferiores { display: none; }
+.filter__container--ancho-de-los-extensores { display: none; }
+.filter__container--perimetro-de-sujeción-de-la-faja { display: none; }
+.filter__container--tamaño-de-la-cinta { display: none; }
+.filter__container--cant.-de-cintas-en-el-rollo { display: none; }
+.filter__container--tipo-de-pegamento { display: none; }
+.filter__container--color-silicona { display: none; }
+.filter__container--alto-parte-externa { display: none; }
+.filter__container--alto-parte-central { display: none; }
+.filter__container--ancho-de-la-gel { display: none; }
+.filter__container--tamañao-de-la-gel { display: none; }
+.filter__container--forma { display: none; }
+.filter__container--rango-de-presión { display: none; }
+.filter__container--potencia { display: none; }
+.filter__container--ciclo-de-operación { display: none; }
+.filter__container--flujo { display: none; }
+.filter__container--dimensiones-del-visor { display: none; }
+.filter__container--dimensiones-de-la-banda-elastica { display: none; }
+.filter__container--dimensiones-de-la-banda-pet { display: none; }
+.filter__container--material-del-visor { display: none; }
+.filter__container--material-de-la-banda-de-ajuste { display: none; }
+.filter__container--estilo { display: none; }
+.filter__container--tipo-de-empuñadura { display: none; }
+.filter__container--material-empuñadura { display: none; }
+.filter__container--color-empuñadura { display: none; }
+.filter__container--tipo-de-caña { display: none; }
+.filter__container--material-caña { display: none; }
+.filter__container--sistema-de-tensión { display: none; }
+.filter__container--sistema-de-graduación-de-altura { display: none; }
+.filter__container--diametro-exterior-tubo-superior { display: none; }
+.filter__container--diametro-externo-tubo-inferior { display: none; }
+.filter__container--altura-empuñadura--max.--min-- { display: none; }
+.filter__container--material-del-apoyo-axilar { display: none; }
+.filter__container--tipo-de-muleta { display: none; }
+.filter__container--soporte-cefalico { display: none; }
+.filter__container--soportes-laterales { display: none; }
+.filter__container--radio-de-giro { display: none; }
+.filter__container--tipo-de-reclinación { display: none; }
+.filter__container--pendiente-maxima { display: none; }
+.filter__container--graduación-del-centro-de-gravedad-ancho { display: none; }
+.filter__container--graduación-del-centro-de-gravedad-en-altura { display: none; }
+.filter__container--grados-de-reclinación { display: none; }
+.filter__container--grados-de-basculación { display: none; }
+.filter__container--altura-del-caminador { display: none; }
+.filter__container--tipo-de-plegado { display: none; }
+.filter__container--presión-negativa { display: none; }
+.filter__container--cantidad-de-cilindros { display: none; }
+.filter__container--capacidad-de-la-botella { display: none; }
+.filter__container--tipo-de-valvula { display: none; }
+.filter__container--diametro { display: none; }
+.filter__container--capacidad { display: none; }
+.filter__container--rango-de-presión-de-operación { display: none; }
+.filter__container--presión-de-salida { display: none; }
+.filter__container--presión-de-entrada--psi- { display: none; }
+.filter__container--material-de-la-llave { display: none; }
+.filter__container--tipo-de-manómetro { display: none; }
+.filter__container--tipo-de-conexión { display: none; }
+.filter__container--material-de-la-bateria { display: none; }
+.filter__container--tensión-nominal-de-la-bateria { display: none; }
+.filter__container--capacidad-del-micronebulizador { display: none; }
+.filter__container--nivel-de-ruido { display: none; }
+.filter__container--tamaño-de-particula--micrones- { display: none; }
+.filter__container--motivo { display: none; }
+.filter__container--distancia-de-medición { display: none; }
+.filter__container--tiempo-de-medición { display: none; }
+.filter__container--tipo-de-pantalla { display: none; }
+.filter__container--eficiencia-de-filtrado { display: none; }
+.filter__container--tamaño-de-la-particula-filtrada { display: none; }
+.filter__container--cantidad-de-capas { display: none; }
+.filter__container--material-de-la-capa-1 { display: none; }
+.filter__container--material-de-la-capa-2 { display: none; }
+.filter__container--material-de-la-capa-3 { display: none; }
+.filter__container--material-de-la-capa-4 { display: none; }
+.filter__container--material-de-la-capa-5 { display: none; }
+.filter__container--tipo-de-sellado { display: none; }
+.filter__container--resistencia-en-la-inhalación { display: none; }
+.filter__container--colonias-totales-de-bacterias { display: none; }
+.filter__container--cantidad { display: none; }
+.filter__container--ph { display: none; }
+.filter__container--precauciones { display: none; }
+.filter__container--componentes { display: none; }
+.filter__container--gravedad-especifica { display: none; }
+.filter__container--solubilidad { display: none; }
+.filter__container--vida-útil-despues-de-apertura { display: none; }
+.filter__container--lado { display: none; }
+.filter__container--tipo-de-ruedas { display: none; }
+.filter__container--tamaño-de-la-rueda { display: none; }
+.filter__container--ancho-del-caminador { display: none; }
+.filter__container--altura-hasta-al-asiento { display: none; }
+.filter__container--material-de-la-empuñadura { display: none; }
+.filter__container--tamaño-del-tapón { display: none; }
+.filter__container--estilo-de-asas { display: none; }
+.filter__container--accesorios { display: none; }
+.filter__container--funciones { display: none; }
+.filter__container--tipo-de-estructura { display: none; }
+.filter__container--tamaño-llantas-traseras { display: none; }
+.filter__container--tipo-de-rin-llantas-traseras { display: none; }
+.filter__container--tipo-de-llanta-trasera { display: none; }
+.filter__container--tipo-de-freno-llanta-trasera { display: none; }
+.filter__container--tamaño-rueda-delantera { display: none; }
+.filter__container--tipo-de-rin-rueda-delantera { display: none; }
+.filter__container--material-rueda-delantera { display: none; }
+.filter__container--estilo-del-apoyabrazos { display: none; }
+.filter__container--altura-del-apoyabrazos { display: none; }
+.filter__container--estilo-del-reposapies { display: none; }
+.filter__container--plataforma-del-reposapies { display: none; }
+.filter__container--altura-del-reposapies--max---min- { display: none; }
+.filter__container--capacidad-de-peso { display: none; }
+.filter__container--tipo-de-respaldo { display: none; }
+.filter__container--material-del-asiento { display: none; }
+.filter__container--material-del-respaldo { display: none; }
+.filter__container--profundidad-del-asiento { display: none; }
+.filter__container--altura-hasta-el-asiento { display: none; }
+.filter__container--altura-del-respaldo { display: none; }
+.filter__container--altura-del-reposapies-al-piso { display: none; }
+.filter__container--display { display: none; }
+.filter__container--unidad-de-medida { display: none; }
+.filter__container--rango-de-medición { display: none; }
+.filter__container--división { display: none; }
+.filter__container--fuente-de-alimentación { display: none; }
+.filter__container--exactitud { display: none; }
+.filter__container--metodo-de-encendido { display: none; }
+.filter__container--modo-de-operación { display: none; }
+.filter__container--condiciones-ambientales-para-funcionamiento { display: none; }
+.filter__container--condiciones-ambientales-para-almacenamiento { display: none; }
+.filter__container--metodo-de-medición { display: none; }
+.filter__container--variables-que-mide { display: none; }
+.filter__container--ajuste-del-eleva { display: none; }
+.filter__container--ancho-interno-de-la-estructura { display: none; }
+.filter__container--ancho-externo-de-la-estructura { display: none; }
+.filter__container--altura-de-la-empuñadura--del-asiento-al-asa- { display: none; }
+.filter__container--material-del-tapón { display: none; }
+.filter__container--ficha-tecnica { display: none; }
+.filter__container--manual { display: none; }
+.filter__container--registro-sanitario { display: none; }
+.filter__container--registro-sanitario-2 { display: none; }
+.filter__container--registro-sanitario-3 { display: none; }
+.filter__container--registro-sanitario-4 { display: none; }
+.filter__container--registro-sanitario-5 { display: none; }
+.filter__container--garantia { display: none; }
+.filter__container--video-1 { display: none; }
+.filter__container--video-2 { display: none; }
+.filter__container--video-3 { display: none; }
+.filter__container--guia-inicio-rapido { display: none; }
+.filter__container--mecanismo-deajuste-de-altura { display: none; }
+.filter__container--mecanismo-de-ajuste-del-cabecero-y-piecero { display: none; }
+.filter__container--tipo-de-apoyo { display: none; }
+.filter__container--rango-de-medicion { display: none; }
+.filter__container--tamano-del-lcd { display: none; }
+.filter__container--resolucion--mmhg- { display: none; }
+.filter__container--metodo-de-medicion { display: none; }
+.filter__container--grados-de-basculacion { display: none;}
+.filter__container--tipo-de-reclinacion { display: none;}
+.filter__container--beneficios{display: none;}
